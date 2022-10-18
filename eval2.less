@@ -1,0 +1,243 @@
+@greencolor : #C1F7D5; 
+@bluecolor : #354463;
+.greenbutton{
+    background-color: @greencolor;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.bluebutton{
+    background-color: @bluecolor;
+    width: 160px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+}
+.texteTakeAction{
+    width: 232px;
+    height: 89px;
+    margin-right: 56px;
+    color: @bluecolor;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    width: 100vw;
+    height: 128px;
+    display: flex;
+
+    .logo{
+        width: 160px;
+        height: 63px;
+        padding-left: 160px;
+        padding-top: 34px;
+    }
+
+    .navbar{
+        margin-left: 220px;
+        padding-top: 54px;
+    }
+
+        .nav1{
+            margin-right: 129px;
+        }
+        .nav2{
+            margin-right: 114px;
+        }
+        .nav3{
+            margin-right: 72px;
+        }
+        .nav4{
+            margin-right: 160px;
+            .greenbutton();
+        }
+}
+.contenu {
+    width: 100vw;
+    height: 672px;
+    background-image: linear-gradient(rgba(193,247,213,0.75), rgba(193,247,213,0.75)),url(./imageAccueil.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+
+    .carreblanc{
+        background-color: white;
+        width: 544px;
+        height: 416px;
+        margin-top: 128px;
+        margin-left: 160px;
+        display: flex;
+    }
+
+    .containerhashtag{
+        width: 296px;
+        height: 224px;
+        margin-top: 128px;
+        margin-left: 135px;
+        display: flex;
+    }
+
+    .rectanglebleu{
+        .bluebutton();
+        margin-top: 112px;
+        margin-left: 224px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+    }
+
+    .minicarreblanc{
+        width: 416px;
+        height: 221px;
+        margin-top: 76px;
+        margin-left: 64px;
+    }
+
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: @bluecolor;
+        font-size: 2.9em;
+    }
+
+    p{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: @bluecolor;
+    }
+
+    h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.8em;
+        color: white;
+    }
+}
+.contenu2{
+    width: 1440px;
+    height: 262px;
+    background-color: @greencolor;
+    display: flex;
+
+    .parent{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-left: 160px;
+        margin-top: 75px;
+    }
+
+    .learn, .volunteer, .share, .donate{
+        .texteTakeAction();
+    }
+
+    .rectanglebleu2{
+        .bluebutton();
+        margin-top: -20px;
+        margin-left: 635px;
+    }
+}
+.contenu3{
+    width: 1440px;
+    height: 2099px;
+    background-color: @bluecolor;
+
+    .rectangleblanc{
+        background-color: white;
+        width: 160px;
+        height: 40px;
+        color: @bluecolor;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        margin-top: 88px;
+        margin-left: 160px;
+    }
+
+    h3{
+        width: 1122px;
+        height: 140px;
+        color: white;
+        font-size: 3em;
+        margin-top: 168px;
+        margin-left: 160px;
+    }
+
+    .parent2{
+        width: 1122px;
+        height: 560px;
+        margin-left: 160px;
+        margin-top: 44px;
+        display: flex;
+    }
+
+    .img1{
+        width: 320px;
+        height: 224px;
+        position: absolute;
+        margin-left: 32px;
+        margin-top: 44px;
+    }
+
+    .img2{
+        width: 320px;
+        height: 224px;
+        position: absolute;
+        margin-left: 416px;
+        margin-top: 44px;
+    }
+
+    .img3{
+        width: 320px;
+        height: 224px;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 44px;
+    }
+
+    .grandRectangle1{
+        width: 320px;
+        height: 528px;
+        background-color: white;
+        margin-top: 76px;
+        margin-right: 64px;
+    }
+
+    .grandRectangle2{
+        width: 320px;
+        height: 528px;
+        background-color: white;
+        margin-top: 76px;
+        margin-right: 64px;
+    }
+
+    .grandRectangle3{
+        width: 320px;
+        height: 528px;
+        background-color: white;
+        margin-top: 76px;
+        margin-right: 64px;
+    }
+
+    h5{
+        color: @bluecolor;
+        margin-top: 221px;
+        font-size: 2em;
+    }
+
+    p{
+        color: @bluecolor;
+    }
+
+    .button1, .button2, .button3{
+        .greenbutton();
+        color: @bluecolor;
+    }
+}
